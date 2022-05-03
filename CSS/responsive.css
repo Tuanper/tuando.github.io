@@ -1,0 +1,122 @@
+ /* PC */
+@media (min-width:64em){
+    .mobile_menu{
+        display: none;
+    }
+}
+/* Tablet */
+@media (min-width:46.1875em)and (max-width:63.9375em){
+    .des_container .des_item{
+        background-color: #fff;
+        width: 45%;
+        text-align: center;
+        margin: 16px;
+        margin-top: 26px;
+        position: relative;
+    }
+    .tours_item{
+        width: 100%;
+        margin: 26px 150px 16px 150px;
+        display: block;
+        border-radius: 5px;
+        box-shadow: 1px 1px 0px 0px #e1e1e1;
+    }
+    .rec_item{
+        width: 100%;
+        margin: 26px 150px 16px 150px;
+        display: block;
+        border-radius: 5px;
+        box-shadow: 1px 1px 0px 0px #e1e1e1;
+    }
+    .nav-ctn--search{
+        display: none;
+    }
+    .mobile_menu{
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width:46.1875em){
+    .des_container .des_item{
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin: 26px 50px 16px 50px;
+    }
+    .tours_item{
+        width: 100%;
+        margin: 26px 50px 16px 50px;
+        display: block;
+        border-radius: 5px;
+        box-shadow: 1px 1px 0px 0px #e1e1e1;
+    }
+    .rec_item{
+        width: 100%;
+        margin: 26px 50px 16px 50px;
+        display: block;
+        border-radius: 5px;
+        box-shadow: 1px 1px 0px 0px #e1e1e1;
+    }
+    .fea img{
+        width: 19%;
+    }
+    .nav-ctn--list>li{
+        display: block;
+    }
+    .nav-ctn--search{
+        display: none;
+    }
+    #nav_mb{
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        display: none;
+    }
+    .mobile_menu{
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        font-size: 30px;
+    }
+    .mobile_menu:hover{
+        opacity: 0.5;
+    }
+    .item img{
+        width: 100%;
+        height: auto;
+        display: block;
+        float: left;
+    }
+    .p2{
+        width: 100%;
+        clear: both;
+    }
+    .p3{
+        width: 100%;
+        clear: both;
+    }
+    .p3{
+        border-left: none;
+    }
+    .item{
+        border: 1px solid #e1e1e1;
+        width: 100%;
+        height: 750px;    
+        border-radius: 5px;
+        margin: 16px 0;
+    }
+
+    .slider--content h1:first-child {
+        font-size: 25px;
+    }
+    .slider--content h1:nth-child(2) {
+        font-size: 18px;
+    }
+    .ft_container{
+        display: block;
+    }
+    .mgt{
+        margin-left: 16px;
+    }
+}

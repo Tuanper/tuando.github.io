@@ -1,0 +1,78 @@
+.img{
+    width: 100%;
+    height: 80vh;
+    background-image: url('../IMG/ct1.jpg');
+    margin-bottom: 16px;
+}
+.main{
+    width: 1200px;
+    max-width:100%;
+    margin: 0 auto;
+}
+.main h1{
+    color: #333;
+}
+.left{
+    width: 70%;
+    float: left;
+}
+.right{
+    width: 30%;
+    float: right;
+}
+.eval{
+    color: tomato;
+    margin: 16px 0;
+}
+footer{
+    clear: both;
+}
+.main table{
+    width: 100%;
+    font-size: 16px;
+}
+.main table tr{
+    height: 30px;
+}
+.main p{
+    font-size: 16px;
+    margin: 16px 0;
+}
+table b{
+    color: #333;
+}
+td{
+    height: 100px;
+}
+ul{
+    list-style: none;
+}
+ul{
+    font-size: 16px;
+}
+ul li{
+    margin: 8px 0;
+}
+.right{
+    border: 1px solid rgb(245, 242, 242);
+}
+.right form{
+    padding: 16px;
+    width: 100%;
+}
+.right form h1{
+    margin: 16px 0;
+}
+.right form input{
+    width: 100%;
+    margin: 16px 0;
+    height: 40px;
+}
+.right form input[type=submit]{
+    background-color: tomato;
+    border: none;
+    color: #fff;
+}
+.right form input[type=submit]:hover{
+    background-color: red;
+}

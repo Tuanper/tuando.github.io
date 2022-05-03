@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+#content{
+    margin: 60px 0px 0px 250px;
+    width: 1000px;
+}
+.img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.text{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(119, 117, 117);
+    line-height: 1.5;
+}
+#strongtxt{
+    color: rgb(70, 65, 65);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+.note{
+    background-color: rgb(245, 244, 244);
+    color: rgb(119, 117, 117);
+    padding: 10px 30px;
+    border-left: 3px solid rgb(184, 181, 181);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.tt{
+    color: rgb(44, 42, 42);
+    font-family: 'Times New Roman', Times, serif;
+}
+.txt{
+    position: absolute;
+    top: 70px;
+    left: 440px;
+    color: white;
+    font-size: 50px;
+}
+.csw-btn-button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 35px;
+    color: #ffffff !important;
+    border-radius: 5px;
+    background: #9B6A1D;
+    border: 1px solid #9B6A1D;
+    transition: 0.4s;
+    margin-left: 30px;
+}
+.csw-btn-button:hover {
+    background: #292929;
+}
+#comment{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(243, 243, 239);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cm34{
+    width:  645px;
+}
+.cm3{
+    margin: 20px 10px 20px 85px;
+    width: 100px;
+    text-align: center;
+    float: left;
+}
+.cm4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+.cm5{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-left: 85px;
+}
+.cm6{
+    text-align: left;
+    margin-left: 85px;
+    padding-bottom: 40px;
+}
+
+

@@ -1,0 +1,147 @@
+.home__background {
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../IMG/ts1.jpg');
+}
+.main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    /* text-align: center; */
+    margin-top: 50px;
+}
+.search{
+    width: 30%;
+    float: left;
+    border-radius: 5px;
+    border:1px solid #e1e1e1;
+}
+.search_content{
+    width: 70%;
+    float: right;
+}
+
+.s_i h3,.s_i input,.s_i select{
+    margin: 16px 0;
+}
+.s_i input{
+    margin-right: 5px;
+}
+.tmt{
+    color: tomato !important;
+    margin-bottom: 32px !important;
+}
+.s_i input[type=text],.s_i input[type=date],.s_i select{
+    width: 100%;
+    height: 40px;
+    border: solid 1px #e1e1e1;
+    border-radius: 5px;
+}
+.s_i h3{
+    color: #333;
+}
+.s_i{
+    margin: 30px;
+}
+.s_i input[type=submit]{
+    background-color: tomato;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.content{
+    margin: 0 30px;
+}
+.content h1:first-child{
+    margin-bottom: 16px;
+    color: #333;
+}
+.s_top{
+    padding: 16px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.s_top select{
+    font-size: 16px;
+    border: none;
+    color: #a5a5a5;
+}
+.content{
+    display: block;
+}
+.item{
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    height: 300px;    
+    border-radius: 5px;
+    margin: 16px 0;
+}
+.item_ct{
+    margin: 16px;
+
+}
+.item img{
+    width: 30%;
+    height: auto;
+    display: block;
+    float: left;
+}
+.p2{
+    width: 50%;
+    float: left;
+}
+.p3{
+    width: 20%;
+    float: right;
+}
+.p2_nd,.p3_nd{
+    margin: 16px;
+}
+.p2 h2{
+    color: #333;
+}
+.p2 i{
+    color: tomato;
+    margin: 16px 16px 16px 0;
+}
+.p3 h2,.p3 .st{
+    color: tomato;
+    margin: 16px 0;
+}
+.p3{
+    border-left: 1px solid #e1e1e1;
+}
+.p3 button{
+    margin-top: 16px;
+    width: 100%;
+    height: 40px;
+    background-color: tomato;
+    color: #fff;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 100px;
+    clear: both;
+}

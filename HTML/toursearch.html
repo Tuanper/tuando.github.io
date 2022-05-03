@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Search</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/toulist.css">
+    <link rel="stylesheet" href="../CSS/toursearch.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-topbar">
+            <div class="grid wide">
+                <div class="topbar">
+                    <div class="row">
+                        <div class="topbar-icon">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <ul class="topbar-lg">
+                            <a href="dangNhap.html">
+                              <li>Đăng Nhập</li>
+                            </a>
+                            <a href="#">
+                              <li>|</li>
+                            </a>
+                            <a href="apdungBootstrap.html">
+                              <li>Đăng Ký</li>
+                            </a>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav-ctn">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="kc">
+                            <div class="nav-ctn--logo">
+                                Tralvel
+                            </div>
+                        </div>
+                        <script src="../Javascrip/main.js"></script>
+                        <ul class="nav-ctn--list" id="nav_mb">
+                            <li><a href="trangchu.html">HOME</a></li>
+                            <li><a href="tourlist.html">TOUR LIST</a></li>
+                            <li><a class="active" href="">TOUR SEARCH</a></li>
+                            <li><a href="destinations.html">DESTINATIONS</a></li>
+                            <li><a href="Blog.html">BLOG</a>
+                            </li>
+                        </ul>
+                        <div class="kc">
+                            <div class="nav-ctn--search">
+                                <i class="fas fa-search" id="search"></i>
+                            </div>
+                            <div class="mobile_menu">
+                                <a onclick="myFunction()">
+                                  <i class="fa fa-bars"></i>
+                                </a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="home">
+        <div class="home__background"></div>
+        <div class="grid wide">
+            <div class="row">
+                <div class="slider">
+                    <div class="sl_tl">
+                        <h1>Search Tours</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="search">
+                <div class="s_i">
+                   <h3 class="tmt">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Tour Search
+                    </h3>
+                    <h3>
+                        Keywords
+                    </h3>
+                    <input type="text" name="" id="">
+                    <h3>Tag</h3>
+                    <input type="checkbox" name="" id="">Our Recommended <br>
+                    <input type="checkbox" name="" id="">Popular Deals<br>
+                    <input type="checkbox" name="" id="">Top One Day Tour<br>
+                    <input type="checkbox" name="" id="">Top Vacation Tours<br>
+                    <h3>Duration</h3>
+                    <select>
+                        <option value="">Any</option>
+                        <option value="">1-3 Days</option>
+                        <option value="">3-5 Days</option>
+                        <option value="">5+ Days</option>
+                    </select>
+                    <h3>Date</h3>
+                    <input type="date" name="" id="">
+                    <h3>Min Price</h3>
+                    <input type="text" name="" id="">
+                    <h3>Max Price</h3>
+                    <input type="text" name="" id="">
+                    <h3>Rating</h3>
+                    <hr>
+                    <h3 class="tmt">Type Filter</h3>
+                    <h3>Tour Age</h3>
+                    <input type="checkbox" name="" id="">10+<br>
+                    <input type="checkbox" name="" id="">12+<br>
+                    <input type="checkbox" name="" id="">15+<br>
+                    <h3>Activity</h3>
+                    <input type="checkbox" name="" id="">City Tours<br>
+                    <input type="checkbox" name="" id="">Cultural & Thematic Tour<br>
+                    <input type="checkbox" name="" id="">Family Friendly Tours<br>
+                    <input type="checkbox" name="" id="">Holiday & Seasonal Tours<br>
+                    <input type="checkbox" name="" id="">Indulgence & Luxury Tours<br>
+                    <input type="checkbox" name="" id="">Outdoor Activites<br>
+                    <h3>Destination</h3>
+                    <input type="checkbox" name="" id="">Africa Adventure<br>
+                    <input type="checkbox" name="" id="">Africa Wild<br>
+                    <input type="checkbox" name="" id="">America<br>
+                    <input type="checkbox" name="" id="">Asia<br>
+                    <input type="checkbox" name="" id="">Scandinavia<br>
+                    <input type="checkbox" name="" id="">Western Europe<br>
+                    <input type="submit" value="Search">
+                </div>
+            </div>
+            <div class="search_content">
+                <div class="content">
+                    <h1>22 Results Found</h1>
+                    <div class="s_top">
+                        <h3>Sort By</h3>
+                            <select name="" id="">
+                                <option value="">Release Date</option>
+                                <option value="">Tour Date</option>
+                                <option value="">Title</option>
+                                <option value="">Price</option>
+                                <option value="">Rating</option>
+                                <option value="">Duration</option>
+                            </select>
+                    </div>
+                    <div class="search_list">
+                        <div class="item">
+                            <div class="item_ct">
+                                <img src="../IMG/ts2.jpeg" alt="">
+                                <div class="p2">
+                                    <div class="p2_nd">
+                                        <a href=""><h2>South Africa – Cape Town</h2></a>
+                                        <p><i class="fa-solid fa-clock"></i>7 Days 6 Nights</p>
+                                        <p><i class="fa-solid fa-calendar-days"></i>Availability : Jan 16’ - Dec 16’</p>
+                                        <p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, […]</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="p3">
+                                    <div class="p3_nd">
+                                        <div class="">
+                                            <p>From</p>
+                                            <h2>$2,200</h2>
+                                        </div>
+                                        <div class="st">
+                                            <p>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <p>(1 Reviews)</p>
+                                        <button>View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_ct">
+                                <img src="../IMG/ts3.jpg" alt="">
+                                <div class="p2">
+                                    <div class="p2_nd">
+                                        <a href=""><h2>Glories of Turkey Tour: A Cultural & Historical Journey</h2></a>
+                                        <p><i class="fa-solid fa-clock"></i>7 Days 6 Nights</p>
+                                        <p><i class="fa-solid fa-calendar-days"></i>Availabitity: Jan 16' - Dec 16'</p>
+                                        <p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, […]</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="p3">
+                                    <div class="p3_nd">
+                                        <div class="">
+                                            <p>From</p>
+                                            <h2>$5,000</h2>
+                                        </div>
+                                        <div class="st">
+                                            <p>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <p>(2 Reviews)</p>
+                                        <button>View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_ct">
+                                <img src="../IMG/ts1.jpeg" alt="">
+                                <div class="p2">
+                                    <div class="p2_nd">
+                                        <a href=""><h2>China – Suzhou and Zhouzhuang</h2></a>
+                                        <p><i class="fa-solid fa-clock"></i>2 Days</p>
+                                        <p><i class="fa-solid fa-calendar-days"></i>Availabitity: Jan 16' - Dec 16'</p>
+                                        <p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, […]</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="p3">
+                                    <div class="p3_nd">
+                                        <div class="">
+                                            <p>From</p>
+                                            <h2>$1,900</h2>
+                                        </div>
+                                        <div class="st">
+                                            <p>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <p>(1 Reviews)</p>
+                                        <button>View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_ct">
+                                <img src="../IMG/ts4.jpg" alt="">
+                                <div class="p2">
+                                    <div class="p2_nd">
+                                        <a href=""><h2>Alcatraz Tour plus Muir Woods</h2></a>
+                                        <p><i class="fa-solid fa-clock"></i>10 Hours</p>
+                                        <p><i class="fa-solid fa-calendar-days"></i>Availabitity: Jan 16' - Dec 16'</p>
+                                        <p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, […]</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="p3">
+                                    <div class="p3_nd">
+                                        <div class="">
+                                            <p>From</p>
+                                            <h2>$120</h2>
+                                        </div>
+                                        <div class="st">
+                                            <p>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <p>(1 Reviews)</p>
+                                        <button>View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_ct">
+                                <img src="../IMG/ts5.jpeg" alt="">
+                                <div class="p2">
+                                    <div class="p2_nd">
+                                        <a href=""><h2>Norway – Heaven on Earth Aurora</h2></a>
+                                        <p><i class="fa-solid fa-clock"></i>16 Hours</p>
+                                        <p><i class="fa-solid fa-calendar-days"></i>Availabitity: Jan 16' - Dec 16'</p>
+                                        <p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, […]</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="p3">
+                                    <div class="p3_nd">
+                                        <div class="">
+                                            <p>From</p>
+                                            <h2>$270</h2>
+                                        </div>
+                                        <div class="st">
+                                            <p>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <p>(1 Reviews)</p>
+                                        <button>View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_ct">
+                                <img src="../IMG/ts6.jpg" alt="">
+                                <div class="p2">
+                                    <div class="p2_nd">
+                                        <a href=""><h2>America – Grand canyon, Golden Gate</h2></a>
+                                        <p><i class="fa-solid fa-clock"></i>9 Days 8 Nights</p>
+                                        <p><i class="fa-solid fa-calendar-days"></i>Availabitity: Jan 16' - Dec 16'</p>
+                                        <p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, […]</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="p3">
+                                    <div class="p3_nd">
+                                        <div class="">
+                                            <p>From</p>
+                                            <h2>$2,800</h2>
+                                        </div>
+                                        <div class="st">
+                                            <p>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                            </p>
+                                        </div>
+                                        <p>(1 Reviews)</p>
+                                        <button>View Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="ft_container">
+          <div class="mgt lienhe">
+            <h2>Call Us</h2><br>
+            <a href="">
+              <i class="fa-solid fa-phone"></i>
+              +6-345-6789-123
+            </a><br><br>
+            <h2>Email</h2><br>
+            <a href="">dot048209@gamil.com</a>
+          </div>
+          <div class="mgt aboutus">
+            <h2>About Us</h2><br>
+            <a href="">Our story</a><br><br>
+            <a href="">Travel Blog & Tips</a><br><br>
+            <a href="">Working With Us</a><br><br>
+            <a href="">Be Our Partner</a>
+          </div>
+          <div class="mgt sup">
+            <h2>Support</h2><br>
+            <a href="">Customer Support</a><br><br>
+            <a href="">Privacy & Policy</a><br><br>
+            <a href="">Contact Channels</a>
+          </div>
+          <div class="mgt members">
+            <h2>Members</h2><br>
+            <address>
+              Đỗ Quốc Tuấn-20079191 <br><br>
+              Võ Quốc Thịnh-20078241 <br><br>
+              Đặng Thị Mộng Thơ-20000685 <br><br>
+              Trương Thị Tường Vi-20000435 <br><br>
+              Đặng Duy Hồ Điệp-20001845 <br><br>
+            </address>
+          </div>
+        </div>
+    
+      </footer>
+</body>
+
+</html>

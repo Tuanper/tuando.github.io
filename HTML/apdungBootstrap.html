@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="../Javascrip/jquery.min.js"></script>
+    <title>Đăng Ký</title>
+    <style>
+        .main{
+            width: 500px;
+            padding: 50px;
+            border: 1px solid rgb(206, 193, 193);
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-sm main">
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" id="ho" placeholder="Họ">
+                <span id="error1" style="color: red;">(*)</span>
+            </div>
+        </div> <br>
+        <div class="row"> 
+            <div class="col">
+                <input type="text" class="form-control" id="ten" placeholder="Tên">
+                <span id="error2" style="color: red;">(*)</span>
+            </div>
+        </div> 
+        <br>
+        <div class="row">
+            <div class="col">
+                <input type="email" class="form-control" id="email" placeholder="Email đăng nhập">
+                <span id="error3" style="color: red;">(*)</span>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <input type="email" class="form-control" id="nlemail" placeholder="Nhập lại Email">
+                <span id="error4" style="color: red;">(*)</span>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <input type="password" class="form-control" id="mk" placeholder="Mật khẩu">
+                <span id="error5" style="color: red;">(*)</span>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <input type="number" class="form-control" id="ns" placeholder="Năm sinh">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <a type="button" id="dk" class="btn btn-primary">Đăng ký</a>
+                <br>
+                <br>
+                <p>Đã có tài khoản ?</p>
+                <a href="dangNhap.html" type="button" class="btn btn-primary">Đăng nhập</a>
+                <a href="trangchu.html" type="button" class="btn btn-primary">Quay Lại Trang Chủ</a>
+            </div>
+        </div>
+    </div>
+    <script src="../Javascrip/RegexadJquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
